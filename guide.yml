@@ -1,0 +1,97 @@
+categories:
+  - category: Introduction
+    content: |
+      # CEA Technology Landscape
+
+      The Controlled Environment Agriculture (CEA) landscape is a community-maintained map of the technology ecosystem serving indoor farming, greenhouses, vertical farms, and cannabis cultivation facilities.
+
+      This landscape is modeled after the [CNCF Landscape](https://landscape.cncf.io) and is open for contribution from vendors, integrators, researchers, and cultivators.
+
+      ## How to Use This Landscape
+
+      Use the filters to explore tools by category, maturity, or license type. Items marked **Open Source** have publicly available source code. Click any item for details including GitHub stats and homepage links.
+
+  - category: Sensors & Monitoring
+    content: |
+      ## Sensors & Monitoring
+
+      Sensors are the foundation of any data-driven growing operation. This category covers hardware and firmware for measuring the key environmental parameters that determine crop outcomes:
+
+      - **Climate & CO2** — Temperature, relative humidity, CO2 concentration, VPD, atmospheric pressure
+      - **Substrate & Root Zone** — Moisture content, EC (electrical conductivity), temperature
+      - **Water Quality** — pH, EC, dissolved oxygen, ORP
+
+      ### Key Considerations
+      - **Wireless vs wired** — Wireless sensors (Aranet, Trolmaster) reduce installation cost; wired sensors offer higher reliability for critical control loops
+      - **Calibration frequency** — CO2 and pH sensors require regular calibration; budget this into operational workflows
+      - **Data connectivity** — Prefer sensors with open APIs or standard protocols (MQTT, Modbus, REST) to avoid vendor lock-in
+
+  - category: Control Systems
+    content: |
+      ## Control Systems
+
+      Control systems translate sensor data into automated actions — adjusting HVAC, lighting schedules, irrigation timing, and fertigation recipes. They are the operational core of any commercial CEA facility.
+
+      ### Key Considerations
+      - **Closed-loop vs open-loop** — True closed-loop systems read sensor feedback and adjust in real time; open-loop systems follow schedules regardless of actual conditions
+      - **Integration depth** — Evaluate how well a control system can ingest data from third-party sensors and export to analytics platforms
+      - **Failsafe design** — What happens when the controller loses connectivity or power? Understand default states for all actuators
+
+  - category: Software & Analytics
+    content: |
+      ## Software & Analytics
+
+      Grow management software sits above the control layer, providing dashboards, batch/crop tracking, compliance records, and business intelligence.
+
+      ### Grow Management
+      Crop lifecycle tracking from propagation through harvest — room assignments, batch IDs, growth stage milestones, and yield recording.
+
+      ### Compliance & Seed-to-Sale
+      In regulated cannabis markets, seed-to-sale tracking (Metrc, BioTrackTHC) is legally mandatory. These systems must be integrated with any grow management software used in the facility.
+
+      ### Analytics & AI
+      Emerging platforms apply machine learning to correlate environmental data with yield outcomes, enabling predictive crop steering and anomaly detection.
+
+  - category: Connectivity & Integration
+    content: |
+      ## Connectivity & Integration
+
+      The data layer that connects sensors, controllers, and software. A well-designed integration architecture is critical for operational intelligence and avoiding data silos.
+
+      ### Time-Series Databases
+      CEA generates high-frequency time-series data (sensor readings every 30–60 seconds across hundreds of points). Specialized databases like InfluxDB are purpose-built for this workload.
+
+      ### Visualization
+      Grafana is the de facto standard for CEA dashboards, offering flexible querying across InfluxDB, Postgres, and other sources with alerting built in.
+
+      ### Best Practices
+      - Prefer **open protocols** (MQTT, REST, Modbus) over proprietary integrations
+      - Design for **data portability** — you should own your historical sensor data
+      - Use a **data historian** pattern: raw sensor data → time-series DB → analytics layer
+
+  - category: How to Contribute
+    content: |
+      ## How to Contribute
+
+      This landscape is maintained by the community. All additions and corrections are welcome.
+
+      ### Adding Your Tool or Company
+
+      1. Fork the [cea-landscape repository](https://github.com/vhark/cea-landscape)
+      2. Add your entry to `data.yml` following the existing format
+      3. Add your logo as an SVG file to the `logos/` directory
+      4. Submit a Pull Request — automated validation will check your YAML
+      5. A maintainer will review and merge
+
+      ### Guidelines
+      - Logos must be SVG format, ideally square or landscape aspect ratio
+      - Homepage URL must be a working link
+      - Description should be 1–2 sentences, factual, and vendor-neutral in tone
+      - Do not submit competitors' entries on their behalf without their knowledge
+
+      ### Reporting Issues
+      Use [GitHub Issues](https://github.com/vhark/cea-landscape/issues) to report:
+      - Incorrect information about an existing listing
+      - Missing categories or subcategories
+      - Broken logos or links
+      - Suggestions for the landscape structure

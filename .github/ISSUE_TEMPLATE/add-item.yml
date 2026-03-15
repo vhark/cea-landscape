@@ -1,0 +1,81 @@
+name: Add a Tool or Company
+description: Request to add a new listing to the CEA landscape
+title: "[ADD] "
+labels: ["addition"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Fill out the fields below and we'll get your listing added.
+        If you're comfortable editing YAML, consider submitting a PR directly — it's faster.
+
+  - type: input
+    id: name
+    attributes:
+      label: Company / Product Name
+      placeholder: e.g. Aranet
+    validations:
+      required: true
+
+  - type: input
+    id: homepage
+    attributes:
+      label: Homepage URL
+      placeholder: https://aranet.com
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Sensors & Monitoring
+        - Control Systems
+        - Software & Analytics
+        - Connectivity & Integration
+        - Infrastructure & Facilities
+        - Marketplaces & Services
+        - Other (suggest in description)
+    validations:
+      required: true
+
+  - type: input
+    id: subcategory
+    attributes:
+      label: Subcategory
+      placeholder: e.g. Climate & CO2
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: 1–2 sentences, factual and neutral in tone.
+      placeholder: Wireless CO2, temperature, and humidity sensors for commercial growing environments.
+    validations:
+      required: true
+
+  - type: input
+    id: logo
+    attributes:
+      label: Logo URL or attachment
+      description: SVG preferred. Attach below or provide a URL.
+      placeholder: https://example.com/logo.svg
+
+  - type: input
+    id: github
+    attributes:
+      label: GitHub / Source Repo (if open source)
+      placeholder: https://github.com/org/repo
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Checklist
+      options:
+        - label: I am affiliated with or have permission to submit this listing
+          required: true
+        - label: The homepage URL is live and working
+          required: true

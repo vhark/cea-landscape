@@ -1,0 +1,67 @@
+foundation: CEA Landscape
+base_path: ""
+
+colors:
+  color1: "rgba(0, 107, 60, 1)"
+  color2: "rgba(0, 153, 86, 1)"
+  color3: "rgba(0, 180, 100, 1)"
+  color4: "rgba(200, 240, 210, 1)"
+  color5: "rgba(240, 255, 245, 1)"
+  color6: "rgba(0, 80, 45, 1)"
+
+images:
+  favicon: https://vhark.github.io/cea-landscape/images/favicon.png
+  open_graph: https://vhark.github.io/cea-landscape/images/og-image.png
+  thumbnail: https://vhark.github.io/cea-landscape/images/thumbnail.png
+
+grid_items_size: medium
+
+groups:
+  - name: Sensors & Monitoring
+    normalized_name: sensors-monitoring
+    categories:
+      - Sensors & Monitoring
+  - name: Control Systems
+    normalized_name: control-systems
+    categories:
+      - Control Systems
+  - name: Software & Analytics
+    normalized_name: software-analytics
+    categories:
+      - Software & Analytics
+  - name: Connectivity & Integration
+    normalized_name: connectivity-integration
+    categories:
+      - Connectivity & Integration
+  - name: Infrastructure & Facilities
+    normalized_name: infrastructure-facilities
+    categories:
+      - Infrastructure & Facilities
+  - name: Marketplaces & Services
+    normalized_name: marketplaces-services
+    categories:
+      - Marketplaces & Services
+
+featured_items:
+  - field: name
+    value: Grownetics
+    label: Open Source
+  - field: name
+    value: InfluxDB
+    label: Open Source
+  - field: name
+    value: Grafana
+    label: Open Source
+  - field: name
+    value: Telegraf
+    label: Open Source
+
+screenshot_width: 1500
+
+social_networks:
+  github: vhark/cea-landscape
+
+footer:
+  links:
+    contributing: https://github.com/vhark/cea-landscape/blob/main/CONTRIBUTING.md
+    license: https://github.com/vhark/cea-landscape/blob/main/LICENSE

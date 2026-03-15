@@ -1,0 +1,57 @@
+name: Build & Deploy Landscape
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    name: Build landscape website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Restore cache
+        uses: actions/cache@v4
+        with:
+          path: /tmp/landscape2-cache
+          key: landscape2-cache-${{ github.run_id }}
+          restore-keys: landscape2-cache-
+
+      - name: Build landscape
+        uses: docker://ghcr.io/cncf/landscape2:latest
+        with:
+          args: >
+            build
+            --data-file data.yml
+            --settings-file settings.yml
+            --guide-file guide.yml
+            --logos-path logos
+            --cache-dir /tmp/landscape2-cache
+            --output-dir build
+        env:
+          GITHUB_TOKENS: ${{ secrets.LANDSCAPE_GITHUB_TOKEN }}
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

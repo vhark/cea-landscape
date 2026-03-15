@@ -1,0 +1,35 @@
+name: Update an Existing Listing
+description: Report incorrect info, broken links, or an outdated logo
+title: "[UPDATE] "
+labels: ["update"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Company / Product Name
+      placeholder: e.g. Aranet
+    validations:
+      required: true
+
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: What needs updating?
+      options:
+        - Logo
+        - Homepage URL
+        - Description
+        - Category / Subcategory
+        - GitHub repo URL
+        - Remove listing
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe what's wrong and what the correct value should be.
+    validations:
+      required: true

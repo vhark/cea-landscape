@@ -1,0 +1,36 @@
+name: Validate Landscape Data
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'data.yml'
+      - 'settings.yml'
+      - 'guide.yml'
+      - 'logos/**'
+
+jobs:
+  validate:
+    name: Validate landscape files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate landscape data
+        uses: cncf/landscape2-validate-action@v2
+        with:
+          kind: data
+          file: data.yml
+
+      - name: Validate landscape settings
+        uses: cncf/landscape2-validate-action@v2
+        with:
+          kind: settings
+          file: settings.yml
+
+      - name: Validate landscape guide
+        uses: cncf/landscape2-validate-action@v2
+        with:
+          kind: guide
+          file: guide.yml
