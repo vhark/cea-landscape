@@ -45,17 +45,15 @@ groups:
 
 featured_items:
   - field: name
-    value: Grownetics
-    label: Open Source
-  - field: name
-    value: InfluxDB
-    label: Open Source
-  - field: name
-    value: Grafana
-    label: Open Source
-  - field: name
-    value: Telegraf
-    label: Open Source
+    options:
+      - value: Grownetics
+        label: Open Source
+      - value: InfluxDB
+        label: Open Source
+      - value: Grafana
+        label: Open Source
+      - value: Telegraf
+        label: Open Source
 
 screenshot_width: 1500
 
