@@ -1,5 +1,5 @@
 landscape:
-  - category: Sensors & Monitoring
+  - name: Sensors & Monitoring
     subcategories:
       - name: Climate & CO2
         items:
@@ -31,7 +31,7 @@ landscape:
             logo: bluelab.svg
             description: pH, EC, and temperature monitoring instruments for hydroponic and soilless growing.
 
-  - category: Control Systems
+  - name: Control Systems
     subcategories:
       - name: Environmental Control
         items:
@@ -62,7 +62,7 @@ landscape:
             logo: ridder.svg
             description: Greenhouse automation including irrigation, climate, and screen control.
 
-  - category: Software & Analytics
+  - name: Software & Analytics
     subcategories:
       - name: Grow Management
         items:
@@ -98,7 +98,7 @@ landscape:
             logo: biotrack.svg
             description: Cannabis compliance tracking and inventory management software.
 
-  - category: Connectivity & Integration
+  - name: Connectivity & Integration
     subcategories:
       - name: IoT Protocols & Middleware
         items:
@@ -125,7 +125,7 @@ landscape:
             logo: aranet-cloud.svg
             description: Cloud platform for managing and retrieving data from Aranet wireless sensor networks.
 
-  - category: Infrastructure & Facilities
+  - name: Infrastructure & Facilities
     subcategories:
       - name: Vertical Farming
         items:
@@ -145,7 +145,7 @@ landscape:
             logo: roughbros.svg
             description: Commercial greenhouse design and construction for horticulture and cannabis.
 
-  - category: Marketplaces & Services
+  - name: Marketplaces & Services
     subcategories:
       - name: Equipment & Supplies
         items:
