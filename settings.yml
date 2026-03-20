@@ -12,9 +12,9 @@ colors:
   color8: "rgba(0, 40, 20, 1)"
 
 images:
-  favicon: https://vhark.github.io/cea-landscape/images/favicon.png
-  open_graph: https://vhark.github.io/cea-landscape/images/og-image.png
-  thumbnail: https://vhark.github.io/cea-landscape/images/thumbnail.png
+  favicon: https://cea-landscape.grownetics.com/images/favicon.png
+  open_graph: https://cea-landscape.grownetics.com/images/og-image.png
+  thumbnail: https://cea-landscape.grownetics.com/images/thumbnail.png
 
 grid_items_size: medium
 
