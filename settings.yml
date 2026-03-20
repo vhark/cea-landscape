@@ -1,4 +1,5 @@
 foundation: CEA Landscape
+url: https://cea-landscape.grownetics.com
 base_path: ""
 
 colors:
@@ -9,6 +10,7 @@ colors:
   color5: "rgba(240, 255, 245, 1)"
   color6: "rgba(0, 80, 45, 1)"
   color7: "rgba(0, 60, 30, 1)"
+  color8: "rgba(0, 40, 20, 1)"
 
 images:
   favicon: https://vhark.github.io/cea-landscape/images/favicon.png
