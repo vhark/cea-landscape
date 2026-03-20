@@ -1,187 +1,162 @@
 landscape:
   - category: Sensors & Monitoring
     subcategories:
-      - subcategory: Climate & CO2
+      - name: Climate & CO2
         items:
-          - item:
-            name: Aranet
+          - name: Aranet
             homepage_url: https://aranet.com
             logo: aranet.svg
             description: Wireless CO2, temperature, humidity, and atmospheric pressure sensors for commercial growing environments.
             crunchbase: https://www.crunchbase.com/organization/aranet
-          - item:
-            name: Trolmaster
+          - name: Trolmaster
             homepage_url: https://trolmaster.com
             logo: trolmaster.svg
             description: Environmental monitoring and control systems for commercial cultivation facilities.
-          - item:
-            name: Infisense
+          - name: Infisense
             homepage_url: https://infisense.com
             logo: infisense.svg
             description: IoT sensor solutions for indoor farming and greenhouse monitoring.
 
-      - subcategory: Substrate & Root Zone
+      - name: Substrate & Root Zone
         items:
-          - item:
-            name: Growlink
+          - name: Growlink
             homepage_url: https://growlink.com
             logo: growlink.svg
             description: Smart grow room controls with substrate moisture and EC monitoring.
 
-      - subcategory: Water Quality
+      - name: Water Quality
         items:
-          - item:
-            name: Bluelab
+          - name: Bluelab
             homepage_url: https://www.bluelab.com
             logo: bluelab.svg
             description: pH, EC, and temperature monitoring instruments for hydroponic and soilless growing.
 
   - category: Control Systems
     subcategories:
-      - subcategory: Environmental Control
+      - name: Environmental Control
         items:
-          - item:
-            name: Priva
+          - name: Priva
             homepage_url: https://www.priva.com
             logo: priva.svg
             description: Greenhouse automation and climate control systems for commercial horticulture.
-          - item:
-            name: Argus Controls
+          - name: Argus Controls
             homepage_url: https://arguscontrols.com
             logo: argus.svg
             description: Precision environmental control systems for high-value crop production.
 
-      - subcategory: Lighting
+      - name: Lighting
         items:
-          - item:
-            name: Fluence
+          - name: Fluence
             homepage_url: https://fluence.science
             logo: fluence.svg
             description: Commercial LED lighting solutions for indoor and greenhouse cultivation.
-          - item:
-            name: Signify (Philips Horticulture LED)
+          - name: Signify (Philips Horticulture LED)
             homepage_url: https://www.lighting.philips.com/main/prof/horticulture-lighting
             logo: philips-horticulture.svg
             description: Professional LED grow lighting for greenhouse and vertical farming applications.
 
-      - subcategory: Irrigation & Fertigation
+      - name: Irrigation & Fertigation
         items:
-          - item:
-            name: Ridder
+          - name: Ridder
             homepage_url: https://www.ridder.com
             logo: ridder.svg
             description: Greenhouse automation including irrigation, climate, and screen control.
 
   - category: Software & Analytics
     subcategories:
-      - subcategory: Grow Management
+      - name: Grow Management
         items:
-          - item:
-            name: Grownetics
+          - name: Grownetics
             homepage_url: https://grownetics.co
             logo: grownetics.svg
             description: Open-source grow management platform with real-time monitoring, automation, and analytics for commercial cultivators.
             repo_url: https://github.com/grownetics
-          - item:
-            name: Agronomic IQ
+          - name: Agronomic IQ
             homepage_url: https://agronomiciq.com
             logo: agronomiciq.svg
             description: Cultivation management software for licensed cannabis producers.
-          - item:
-            name: growSoft
+          - name: growSoft
             homepage_url: https://growsoft.com
             logo: growsoft.svg
             description: ERP and production management for greenhouse and nursery operations.
 
-      - subcategory: Data & Analytics
+      - name: Data & Analytics
         items:
-          - item:
-            name: Motorleaf
+          - name: Motorleaf
             homepage_url: https://www.motorleaf.com
             logo: motorleaf.svg
             description: AI-powered predictive analytics and yield forecasting for greenhouses.
 
-      - subcategory: Compliance & Seed-to-Sale
+      - name: Compliance & Seed-to-Sale
         items:
-          - item:
-            name: Metrc
+          - name: Metrc
             homepage_url: https://metrc.com
             logo: metrc.svg
             description: State-authorized cannabis seed-to-sale tracking platform used across regulated US markets.
-          - item:
-            name: BioTrackTHC
+          - name: BioTrackTHC
             homepage_url: https://biotrackthc.com
             logo: biotrack.svg
             description: Cannabis compliance tracking and inventory management software.
 
   - category: Connectivity & Integration
     subcategories:
-      - subcategory: IoT Protocols & Middleware
+      - name: IoT Protocols & Middleware
         items:
-          - item:
-            name: InfluxDB
+          - name: InfluxDB
             homepage_url: https://www.influxdata.com
             logo: influxdb.svg
             description: Time-series database purpose-built for high-throughput sensor data ingestion and querying.
             repo_url: https://github.com/influxdata/influxdb
-          - item:
-            name: Telegraf
+          - name: Telegraf
             homepage_url: https://www.influxdata.com/time-series-platform/telegraf
             logo: telegraf.svg
             description: Open-source server agent for collecting, processing, and aggregating sensor metrics.
             repo_url: https://github.com/influxdata/telegraf
-          - item:
-            name: Grafana
+          - name: Grafana
             homepage_url: https://grafana.com
             logo: grafana.svg
             description: Open-source observability and data visualization platform widely used for CEA dashboards.
             repo_url: https://github.com/grafana/grafana
 
-      - subcategory: Cloud Platforms
+      - name: Cloud Platforms
         items:
-          - item:
-            name: Aranet Cloud
+          - name: Aranet Cloud
             homepage_url: https://aranet.cloud
             logo: aranet-cloud.svg
             description: Cloud platform for managing and retrieving data from Aranet wireless sensor networks.
 
   - category: Infrastructure & Facilities
     subcategories:
-      - subcategory: Vertical Farming
+      - name: Vertical Farming
         items:
-          - item:
-            name: 80 Acres Farms
+          - name: 80 Acres Farms
             homepage_url: https://www.80acresfarms.com
             logo: 80acres.svg
             description: Technology-forward vertical farming operator and platform developer.
-          - item:
-            name: AppHarvest
+          - name: AppHarvest
             homepage_url: https://appharvest.com
             logo: appharvest.svg
             description: High-tech greenhouse operator focused on sustainable agriculture in Appalachia.
 
-      - subcategory: Greenhouse Construction
+      - name: Greenhouse Construction
         items:
-          - item:
-            name: Rough Brothers (RBI)
+          - name: Rough Brothers (RBI)
             homepage_url: https://roughbros.com
             logo: roughbros.svg
             description: Commercial greenhouse design and construction for horticulture and cannabis.
 
   - category: Marketplaces & Services
     subcategories:
-      - subcategory: Equipment & Supplies
+      - name: Equipment & Supplies
         items:
-          - item:
-            name: Hort Americas
+          - name: Hort Americas
             homepage_url: https://hortamericas.com
             logo: hortamericas.svg
             description: Distributor of professional greenhouse and indoor farming supplies and technology.
 
-      - subcategory: Consulting & Integration
+      - name: Consulting & Integration
         items:
-          - item:
-            name: Surna
+          - name: Surna
             homepage_url: https://surna.com
             logo: surna.svg
             description: Environmental control and HVAC engineering for cannabis and controlled environment facilities.
