@@ -1,162 +1,1200 @@
 landscape:
+  - name: Growing Systems
+    subcategories:
+      - name: Hydroponic Systems
+        items:
+          - name: AmHydro
+            homepage_url: https://amhydro.com
+            logo: amhydro.svg
+            description: Commercial NFT and ebb-and-flow hydroponic systems for greenhouse and indoor operations.
+          - name: Cropking
+            homepage_url: https://cropking.com
+            logo: cropking.svg
+            description: Commercial hydroponic system supplier and turnkey greenhouse consulting services.
+          - name: Current Culture H2O
+            homepage_url: https://currentcultureh2o.com
+            logo: current-culture-h2o.svg
+            description: Under Current recirculating deep water culture systems for commercial cultivation.
+          - name: AutoPot
+            homepage_url: https://autopot.co.uk
+            logo: autopot.svg
+            description: Gravity-fed automated watering and irrigation systems requiring no pumps or electricity.
+          - name: GreenForces
+            homepage_url: https://greenforces.nl
+            logo: greenforces.svg
+            description: Dutch hydroponic system manufacturer specializing in commercial growing solutions.
+
+      - name: Vertical Farming Systems
+        items:
+          - name: IGS (Intelligent Growth Solutions)
+            homepage_url: https://igs.world
+            logo: igs.svg
+            description: Technology-driven vertical farming with proprietary growth tower systems and integrated LED lighting.
+          - name: CubicFarm Systems
+            homepage_url: https://cubicfarms.com
+            logo: cubicfarm-systems.svg
+            description: Automated vertical farming modules for produce and cannabis using patented rotating rack technology.
+
+      - name: Greenhouse Structures & Builders
+        items:
+          - name: Van der Hoeven
+            homepage_url: https://vanderhoeven.nl
+            logo: van-der-hoeven.svg
+            description: Dutch turnkey greenhouse construction company building large-scale automated facilities worldwide.
+          - name: Certhon
+            homepage_url: https://certhon.com
+            logo: certhon.svg
+            description: Turnkey greenhouse projects integrating climate systems, automation, and cultivation technology.
+          - name: Kubo
+            homepage_url: https://kubo.nl
+            logo: kubo.svg
+            description: Greenhouse design and construction specializing in Ultra-Clima high-tech greenhouse systems.
+          - name: Harnois Industries
+            homepage_url: https://harnoisgreenhouses.com
+            logo: harnois.svg
+            description: Canadian greenhouse manufacturer offering commercial greenhouse structures and equipment.
+          - name: Prospiant
+            homepage_url: https://prospiant.com
+            logo: prospiant.svg
+            description: CEA greenhouse design, engineering, and construction for commercial horticulture operations.
+          - name: GGS Structures
+            homepage_url: https://ggsstructures.com
+            logo: ggs-structures.svg
+            description: Greenhouse structures manufacturer and subsidiary of Pipp Horticulture.
+          - name: Nexus Corporation
+            homepage_url: https://nexuscorp.net
+            logo: nexus-corporation.svg
+            description: Commercial greenhouse structures and integrated environmental control systems.
+          - name: Hydrofarm
+            homepage_url: https://hydrofarm.com
+            logo: hydrofarm.svg
+            description: Wholesale distributor of hydroponic equipment, grow lights, and controlled environment agriculture supplies.
+            crunchbase: https://www.crunchbase.com/organization/hydrofarm
+          - name: Agra Tech
+            homepage_url: https://agratech.com
+            logo: agra-tech.svg
+            description: Commercial greenhouse manufacturer offering custom-designed growing structures.
+          - name: Rough Brothers
+            homepage_url: https://roughbros.com
+            logo: rough-brothers.svg
+            description: Commercial greenhouse design and construction for horticulture and cannabis operations.
+
+      - name: Modular & Container Farms
+        items:
+          - name: Freight Farms
+            homepage_url: https://freightfarms.com
+            logo: freight-farms.svg
+            description: Container-based modular vertical farms enabling local food production in any climate.
+            crunchbase: https://www.crunchbase.com/organization/freight-farms
+          - name: Growtainer
+            homepage_url: https://growtainer.com
+            logo: growtainer.svg
+            description: Custom shipping container grow rooms for commercial and research cultivation.
+          - name: Micro Lab Farms
+            homepage_url: https://microlabfarms.com
+            logo: micro-lab-farms.svg
+            description: GrowPod container-based growing systems optimized for cannabis cultivation.
+          - name: Farm One
+            homepage_url: https://farmone.com
+            logo: farm-one.svg
+            description: Modular container farming for microgreens and specialty herbs in urban environments.
+          - name: Cropbox
+            homepage_url: https://cropbox.io
+            logo: cropbox.svg
+            description: Container farming as a service for scalable indoor food production.
+
+  - name: Environmental Control
+    subcategories:
+      - name: Climate Computers
+        items:
+          - name: Priva
+            homepage_url: https://priva.com
+            logo: priva.svg
+            description: Dutch greenhouse automation leader offering Connext climate and process computers for large-scale CEA.
+            crunchbase: https://www.crunchbase.com/organization/priva
+          - name: Argus Controls
+            homepage_url: https://arguscontrols.com
+            logo: argus-controls.svg
+            description: Modular, customizable climate control and automation systems for commercial greenhouses.
+            crunchbase: https://www.crunchbase.com/organization/argus-control-systems
+          - name: Ridder
+            homepage_url: https://ridder.com
+            logo: ridder.svg
+            description: Process computers for climate, water, and energy management in greenhouse operations.
+            crunchbase: https://www.crunchbase.com/organization/ridder
+          - name: Hoogendoorn
+            homepage_url: https://hoogendoorn.nl
+            logo: hoogendoorn.svg
+            description: Advanced greenhouse climate and irrigation computers with process automation capabilities.
+          - name: Growlink
+            homepage_url: https://growlink.ag
+            logo: growlink.svg
+            description: Cloud-powered remote monitoring and environmental controls with mobile management for CEA.
+            crunchbase: https://www.crunchbase.com/organization/growlink
+          - name: Autogrow
+            homepage_url: https://autogrow.com
+            logo: autogrow.svg
+            description: Cloud-enabled real-time environmental alerts and predictive analytics for multi-site farm management.
+            crunchbase: https://www.crunchbase.com/organization/autogrow
+          - name: Trolmaster
+            homepage_url: https://trolmaster.com
+            logo: trolmaster.svg
+            description: RJ12-based environmental controllers and monitoring systems widely used in cannabis cultivation.
+          - name: HortiMaX
+            homepage_url: https://hortimax.com
+            logo: hortimax.svg
+            description: Intelligent climate and irrigation analytics platform for Dutch-style greenhouse operations.
+          - name: Wadsworth Controls
+            homepage_url: https://wadsworthcontrols.com
+            logo: wadsworth-controls.svg
+            description: US-made durable greenhouse environmental controls including the Juniper and Seed controller lines.
+          - name: Link4 Corporation
+            homepage_url: https://link4.com
+            logo: link4.svg
+            description: Environmental controllers and data logging systems for commercial greenhouse and indoor grows.
+          - name: Climate Control Systems
+            homepage_url: https://climatecontrol.com
+            logo: climate-control-systems.svg
+            description: Fertigation Manager and environmental control systems for commercial cultivation facilities.
+          - name: GrowDirector
+            homepage_url: https://growdirector.com
+            logo: growdirector.svg
+            description: Automated grow environment management with cloud-based monitoring and control.
+          - name: UnityESG
+            homepage_url: https://unityesg.com
+            logo: unityesg.svg
+            description: Environmental monitoring and control systems for controlled environment agriculture operations.
+          - name: Grozone Control
+            homepage_url: https://grozone.co.uk
+            logo: grozone-control.svg
+            description: UK-based environmental controllers for temperature, humidity, and CO2 in growing environments.
+          - name: iGrow
+            homepage_url: https://igrow.com
+            logo: igrow.svg
+            description: Automated environmental control systems for greenhouse and indoor cultivation management.
+
+      - name: HVAC & Dehumidification
+        items:
+          - name: BioTherm Solutions
+            homepage_url: https://biothermsolutions.com
+            logo: biotherm-solutions.svg
+            description: Custom 4-pipe HVACD systems purpose-built for controlled environment agriculture facilities.
+          - name: InSpire Transpiration Solutions
+            homepage_url: https://inspire.ag
+            logo: inspire.svg
+            description: Plant-centric HVAC systems for heating, cooling, and dehumidification with cloud data services.
+          - name: Desert Aire
+            homepage_url: https://desert-aire.com
+            logo: desert-aire.svg
+            description: Refrigeration-based dehumidifiers and HVAC systems designed for indoor agriculture environments.
+          - name: AgronoMic IQ
+            homepage_url: https://agronomiciq.com
+            logo: agronomic-iq.svg
+            description: All-in-one smart HVAC systems designed specifically for grow room climate management.
+          - name: EasyRoots
+            homepage_url: https://easyroots.com
+            logo: easyroots.svg
+            description: VRF-based HVAC-D systems with waste heat recycling for energy-efficient indoor growing.
+          - name: Surna
+            homepage_url: https://surna.com
+            logo: surna.svg
+            description: Climate control engineering for cannabis facilities including HVAC, chilled water, and dehumidification.
+          - name: Anden
+            homepage_url: https://anden.com
+            logo: anden.svg
+            description: High-capacity commercial dehumidifiers for indoor growing operations, part of Aprilaire.
+          - name: Quest Climate
+            homepage_url: https://questclimate.com
+            logo: quest-climate.svg
+            description: Commercial-grade dehumidifiers purpose-built for cannabis and CEA grow rooms.
+          - name: DryGair
+            homepage_url: https://drygair.com
+            logo: drygair.svg
+            description: Energy-efficient greenhouse dehumidification systems using heat-pump technology.
+          - name: Cotes
+            homepage_url: https://cotes.com
+            logo: cotes.svg
+            description: Industrial desiccant dehumidification systems for precision climate control in CEA.
+          - name: DeltaT Solutions
+            homepage_url: https://deltatsolutions.com
+            logo: deltat-solutions.svg
+            description: HVAC engineering and climate control solutions for commercial greenhouse and indoor growing facilities.
+          - name: Therma-Stor
+            homepage_url: https://thermastor.com
+            logo: therma-stor.svg
+            description: Commercial and industrial dehumidification equipment for controlled environment applications.
+          - name: Antair Systems
+            homepage_url: https://antairsystems.com
+            logo: antair-systems.svg
+            description: Heatless ducted dehumidification systems designed for cannabis cultivation facilities.
+
+      - name: CO2 Systems
+        items:
+          - name: Titan Controls
+            homepage_url: https://titancontrols.com
+            logo: titan-controls.svg
+            description: CO2 generators, controllers, and environmental management equipment for indoor growing.
+          - name: Autopilot
+            homepage_url: https://autopilothorticulture.com
+            logo: autopilot.svg
+            description: CO2, HVAC, and timer controls for greenhouse and indoor cultivation environments.
+
+  - name: Lighting
+    subcategories:
+      - name: LED Grow Lights - Enterprise
+        items:
+          - name: Fluence (OSRAM)
+            homepage_url: https://fluence.science
+            logo: fluence.svg
+            description: High-efficacy horticultural LED fixtures for vertical farms and greenhouses, owned by OSRAM.
+            crunchbase: https://www.crunchbase.com/organization/fluence-bioengineering
+          - name: Gavita
+            homepage_url: https://gavita.com
+            logo: gavita.svg
+            description: High-output LED and HID lighting systems for professional growers, owned by Hawthorne/Scotts.
+          - name: Signify
+            homepage_url: https://signify.com
+            logo: signify.svg
+            description: Philips GreenPower commercial horticulture LED systems for greenhouse and vertical farming.
+          - name: Heliospectra
+            homepage_url: https://heliospectra.com
+            logo: heliospectra.svg
+            description: Intelligent tunable LED grow light systems with integrated software control and analytics.
+            crunchbase: https://www.crunchbase.com/organization/heliospectra
+          - name: Valoya
+            homepage_url: https://valoya.com
+            logo: valoya.svg
+            description: Research-backed LED grow lights with optimized spectra for specialty crops and pharmaceuticals.
+          - name: LumiGrow
+            homepage_url: https://lumigrow.com
+            logo: lumigrow.svg
+            description: SmartPAR spectrally adjustable LED grow lights with IoT integration. Acquired by Signify/Philips.
+          - name: Hortilux
+            homepage_url: https://hortilux.com
+            logo: hortilux.svg
+            description: Professional HPS and ceramic metal halide grow lights for commercial horticulture.
+          - name: Thrive Agritech
+            homepage_url: https://thriveagritech.com
+            logo: thrive-agritech.svg
+            description: LED lighting solutions designed specifically for vertical farming and indoor agriculture.
+          - name: Active Grow
+            homepage_url: https://activegrow.com
+            logo: active-grow.svg
+            description: T5 and LED strip lighting systems optimized for vertical farms and commercial indoor grows.
+          - name: P.L. Light Systems
+            homepage_url: https://pllightingsystems.com
+            logo: pl-light-systems.svg
+            description: Commercial greenhouse and indoor grow lighting including LED, HPS, and hybrid solutions.
+          - name: California Lightworks
+            homepage_url: https://californialightworks.com
+            logo: california-lightworks.svg
+            description: High-performance LED grow lights with programmable spectrum control for commercial cultivation.
+
+      - name: LED Grow Lights - Mid-Market
+        items:
+          - name: Spider Farmer
+            homepage_url: https://spiderfarmer.com
+            logo: spider-farmer.svg
+            description: High-value LED grow light panels widely adopted in cannabis and indoor growing operations.
+          - name: Mars Hydro
+            homepage_url: https://marshydro.com
+            logo: mars-hydro.svg
+            description: LED grow lights and indoor growing equipment for cannabis and horticultural applications.
+          - name: HLG (Horticulture Lighting Group)
+            homepage_url: https://horticulturelightinggroup.com
+            logo: hlg.svg
+            description: Quantum board LED grow lights known for high efficacy and strong community adoption.
+          - name: VIVOSUN
+            homepage_url: https://vivosun.com
+            logo: vivosun.svg
+            description: Indoor growing equipment manufacturer with a broad range of LED grow lights and accessories.
+          - name: Lumatek
+            homepage_url: https://lumatek.com
+            logo: lumatek.svg
+            description: UK-based manufacturer of LED and HPS grow lights for commercial and craft cultivation.
+          - name: Photontek
+            homepage_url: https://photontek.com
+            logo: photontek.svg
+            description: High-efficiency LED grow lights engineered for uniform light distribution in commercial grows.
+          - name: AC Infinity
+            homepage_url: https://acinfinity.com
+            logo: ac-infinity.svg
+            description: Fast-growing manufacturer of LED grow lights, inline fans, and environmental control equipment.
+          - name: Migro
+            homepage_url: https://migrolight.com
+            logo: migro.svg
+            description: Irish LED grow light manufacturer known for independent testing and high-efficiency fixtures.
+          - name: Timber Grow Lights
+            homepage_url: https://timbergrowlights.com
+            logo: timber-grow-lights.svg
+            description: Custom LED grow light fixtures built for commercial cannabis and indoor growing operations.
+          - name: Grower's Choice
+            homepage_url: https://growerschoice.com
+            logo: growers-choice.svg
+            description: LED and HPS grow lights for commercial and mid-scale indoor cultivation facilities.
+
+      - name: Lighting Controls
+        items:
+          - name: Sollum Technologies
+            homepage_url: https://sollum.com
+            logo: sollum.svg
+            description: Dynamic spectrum LED lighting control systems that replicate and optimize natural sunlight patterns.
+
   - name: Sensors & Monitoring
     subcategories:
-      - name: Climate & CO2
+      - name: Environmental Sensors
         items:
           - name: Aranet
             homepage_url: https://aranet.com
             logo: aranet.svg
-            description: Wireless CO2, temperature, humidity, and atmospheric pressure sensors for commercial growing environments.
+            description: Wireless CO2, temperature, humidity, and atmospheric pressure sensors widely adopted in CEA.
             crunchbase: https://www.crunchbase.com/organization/aranet
-          - name: Trolmaster
-            homepage_url: https://trolmaster.com
-            logo: trolmaster.svg
-            description: Environmental monitoring and control systems for commercial cultivation facilities.
-          - name: Infisense
-            homepage_url: https://infisense.com
-            logo: infisense.svg
-            description: IoT sensor solutions for indoor farming and greenhouse monitoring.
+          - name: Onset HOBO
+            homepage_url: https://onsetcomp.com
+            logo: onset-hobo.svg
+            description: Data loggers and environmental monitoring sensors for temperature, humidity, and light measurement.
+          - name: Sensirion
+            homepage_url: https://sensirion.com
+            logo: sensirion.svg
+            description: Swiss precision humidity, temperature, and CO2 sensor components used in CEA monitoring systems.
+          - name: Amphenol Advanced Sensors
+            homepage_url: https://amphenol-sensors.com
+            logo: amphenol.svg
+            description: Telaire CO2 and environmental sensors for horticulture and indoor agriculture applications.
+          - name: CO2Meter
+            homepage_url: https://co2meter.com
+            logo: co2meter.svg
+            description: CO2 monitoring instruments and environmental sensors for greenhouse and grow room applications.
+          - name: Apogee Instruments
+            homepage_url: https://apogeeinstruments.com
+            logo: apogee-instruments.svg
+            description: Precision quantum PAR sensors and environmental measurement instruments for plant science research.
+          - name: LI-COR Biosciences
+            homepage_url: https://licor.com
+            logo: li-cor.svg
+            description: Scientific-grade PAR sensors and gas analyzers for photosynthesis and environmental research.
+          - name: E+E Elektronik
+            homepage_url: https://epluse.com
+            logo: e-e-elektronik.svg
+            description: High-accuracy humidity, temperature, and CO2 measurement devices for CEA environmental monitoring.
+          - name: ICT International
+            homepage_url: https://ictinternational.com
+            logo: ict-international.svg
+            description: Environmental monitoring instruments for plant physiology, soil moisture, and microclimate measurement.
 
-      - name: Substrate & Root Zone
+      - name: Substrate & Grow Media Sensors
         items:
-          - name: Growlink
-            homepage_url: https://growlink.com
-            logo: growlink.svg
-            description: Smart grow room controls with substrate moisture and EC monitoring.
+          - name: METER Group
+            homepage_url: https://metergroup.com
+            logo: meter-group.svg
+            description: High-precision soil and substrate sensors including the TEROS series for moisture, EC, and temperature.
+          - name: Sentek Technologies
+            homepage_url: https://sentek.com.au
+            logo: sentek.svg
+            description: Australian soil moisture and salinity monitoring probes for irrigation management in CEA.
+          - name: Agrowtek
+            homepage_url: https://agrowtek.com
+            logo: agrowtek.svg
+            description: Greenhouse monitoring and control systems with integrated substrate sensing capabilities.
+          - name: Stevens Water Monitoring
+            homepage_url: https://stevenswater.com
+            logo: stevens-water.svg
+            description: Soil and substrate monitoring systems for agricultural and environmental applications.
+          - name: CropX Technologies
+            homepage_url: https://cropx.com
+            logo: cropx.svg
+            description: AI-powered soil and substrate sensors with cloud analytics for precision irrigation management.
+          - name: Delta-T Devices
+            homepage_url: https://delta-t.co.uk
+            logo: delta-t-devices.svg
+            description: WET substrate moisture, EC, and temperature sensors for greenhouse and research applications.
 
-      - name: Water Quality
+      - name: Water Quality Sensors
         items:
           - name: Bluelab
-            homepage_url: https://www.bluelab.com
+            homepage_url: https://bluelab.com
             logo: bluelab.svg
-            description: pH, EC, and temperature monitoring instruments for hydroponic and soilless growing.
+            description: Industry-standard pH, EC, and temperature monitoring instruments for hydroponic growing.
+          - name: Hanna Instruments
+            homepage_url: https://hannainst.com
+            logo: hanna-instruments.svg
+            description: Comprehensive pH, EC, dissolved oxygen, and nutrient testing instruments for water quality.
+          - name: Milwaukee Instruments
+            homepage_url: https://milwaukeeinst.com
+            logo: milwaukee-instruments.svg
+            description: Affordable pH and EC meters and controllers for hydroponic and aquaponic systems.
+          - name: Myron L Company
+            homepage_url: https://myronl.com
+            logo: myron-l.svg
+            description: Professional water quality testing instruments for conductivity, pH, and TDS measurement.
+          - name: Sensorex
+            homepage_url: https://sensorex.com
+            logo: sensorex.svg
+            description: pH, ORP, and dissolved oxygen sensors for process control in hydroponic and water treatment.
+          - name: Atlas Scientific
+            homepage_url: https://atlas-scientific.com
+            logo: atlas-scientific.svg
+            description: Developer-friendly water quality sensor modules for pH, EC, and dissolved oxygen with open APIs.
 
-  - name: Control Systems
+      - name: Imaging & Computer Vision
+        items:
+          - name: iUNU
+            homepage_url: https://iunu.com
+            logo: iunu.svg
+            description: AI-powered Luna vision platform for automated plant health monitoring and growth analytics.
+          - name: Phenospex
+            homepage_url: https://phenospex.com
+            logo: phenospex.svg
+            description: 3D plant phenotyping systems using laser scanning for non-destructive growth measurement.
+          - name: Arable
+            homepage_url: https://arable.com
+            logo: arable.svg
+            description: In-field microclimate sensing and crop intelligence platform for precision agriculture.
+          - name: Ceres Imaging
+            homepage_url: https://ceresimaging.net
+            logo: ceres-imaging.svg
+            description: Aerial and satellite crop imaging analytics for water stress and nutrient deficiency detection.
+
+  - name: Irrigation & Fertigation
     subcategories:
-      - name: Environmental Control
+      - name: Irrigation Systems
         items:
-          - name: Priva
-            homepage_url: https://www.priva.com
-            logo: priva.svg
-            description: Greenhouse automation and climate control systems for commercial horticulture.
-          - name: Argus Controls
-            homepage_url: https://arguscontrols.com
-            logo: argus.svg
-            description: Precision environmental control systems for high-value crop production.
+          - name: Netafim
+            homepage_url: https://netafim.com
+            logo: netafim.svg
+            description: Global leader in precision drip and micro-irrigation systems including the Fertikit fertigation line.
+          - name: Dosatron
+            homepage_url: https://dosatron.com
+            logo: dosatron.svg
+            description: Water-powered proportional fertilizer and chemical injectors requiring no electricity.
+          - name: Irritec
+            homepage_url: https://irritec.com
+            logo: irritec.svg
+            description: Complete fertigation and drip irrigation systems for greenhouse and field agriculture.
+          - name: Rain Bird
+            homepage_url: https://rainbird.com
+            logo: rain-bird.svg
+            description: Commercial and agricultural irrigation systems including controllers and precision emitters.
+          - name: Hunter Industries
+            homepage_url: https://hunterindustries.com
+            logo: hunter-industries.svg
+            description: Irrigation controllers, valves, and distribution systems for commercial growing operations.
+          - name: JAIN Irrigation
+            homepage_url: https://jains.com
+            logo: jain-irrigation.svg
+            description: India-based global provider of drip irrigation, fertigation control, and micro-irrigation systems.
+          - name: Toro
+            homepage_url: https://toro.com
+            logo: toro.svg
+            description: Precision irrigation and soil sensor systems for commercial agriculture and turf management.
+          - name: Nelson Irrigation
+            homepage_url: https://nelsonirrigation.com
+            logo: nelson-irrigation.svg
+            description: Overhead and center pivot irrigation systems for greenhouse and field crop applications.
+          - name: Rivulis
+            homepage_url: https://rivulis.com
+            logo: rivulis.svg
+            description: Micro-irrigation solutions including drip lines, emitters, and filters for precision growing.
+          - name: HydroLogic
+            homepage_url: https://hydrologicpurification.com
+            logo: hydrologic.svg
+            description: Water purification and filtration systems including reverse osmosis for hydroponic cultivation.
 
-      - name: Lighting
+      - name: Fertigation Controllers
         items:
-          - name: Fluence
-            homepage_url: https://fluence.science
-            logo: fluence.svg
-            description: Commercial LED lighting solutions for indoor and greenhouse cultivation.
-          - name: Signify (Philips Horticulture LED)
-            homepage_url: https://www.lighting.philips.com/main/prof/horticulture-lighting
-            logo: philips-horticulture.svg
-            description: Professional LED grow lighting for greenhouse and vertical farming applications.
+          - name: AROYA
+            homepage_url: https://aroya.io
+            logo: aroya.svg
+            description: Data-driven substrate management and crop steering platform with precision irrigation analytics.
+            crunchbase: https://www.crunchbase.com/organization/aroya
+          - name: MORR Inc.
+            homepage_url: https://morr.com
+            logo: morr.svg
+            description: Custom water management and fertigation systems for large-scale commercial growing operations.
 
-      - name: Irrigation & Fertigation
+      - name: Water Treatment
         items:
-          - name: Ridder
-            homepage_url: https://www.ridder.com
-            logo: ridder.svg
-            description: Greenhouse automation including irrigation, climate, and screen control.
+          - name: Pentair
+            homepage_url: https://pentair.com
+            logo: pentair.svg
+            description: Water treatment, filtration, and UV sterilization solutions for horticultural water systems.
+
+      - name: Nutrients & Fertilizers
+        items:
+          - name: General Hydroponics
+            homepage_url: https://generalhydroponics.com
+            logo: general-hydroponics.svg
+            description: Industry-leading hydroponic nutrient systems including Flora Series, owned by Hawthorne/Scotts.
+          - name: Athena Ag
+            homepage_url: https://athenaag.com
+            logo: athena-ag.svg
+            description: Professional-grade cannabis nutrients with precision salt-based blending for commercial cultivators.
+          - name: Jack's Nutrients
+            homepage_url: https://jrpeters.com
+            logo: jacks-nutrients.svg
+            description: Bulk professional water-soluble nutrients trusted by large-scale commercial growing operations.
+          - name: Advanced Nutrients
+            homepage_url: https://advancednutrients.com
+            logo: advanced-nutrients.svg
+            description: Multi-part nutrient systems with pH-perfect technology for hydroponic cannabis cultivation.
+          - name: Botanicare
+            homepage_url: https://botanicare.com
+            logo: botanicare.svg
+            description: Hydroponic nutrients, supplements, and growing systems for indoor and greenhouse operations.
+          - name: Fox Farm
+            homepage_url: https://foxfarmfertilizer.com
+            logo: fox-farm.svg
+            description: Organic-based soil nutrients and fertilizers for indoor and outdoor growing applications.
+          - name: CANNA
+            homepage_url: https://canna.com
+            logo: canna.svg
+            description: European nutrient and substrate brand offering complete hydroponic feeding programs and coco products.
+          - name: Heavy 16
+            homepage_url: https://heavy16.com
+            logo: heavy-16.svg
+            description: Professional two-part nutrient system designed for large-scale commercial cannabis cultivation.
+          - name: BioBizz
+            homepage_url: https://biobizz.com
+            logo: biobizz.svg
+            description: Dutch organic nutrient line for soil and hydroponic growing with full certification.
+          - name: GreenPlanet Nutrients
+            homepage_url: https://greenplanetnutrients.com
+            logo: greenplanet-nutrients.svg
+            description: Canadian professional nutrient brand for hydroponic and soil-based commercial cultivation.
+
+  - name: Automation & Robotics
+    subcategories:
+      - name: Harvesting Robots
+        items:
+          - name: Harvest Automation
+            homepage_url: https://harvestautomation.com
+            logo: harvest-automation.svg
+            description: Autonomous container-handling robots for nursery and greenhouse material movement.
+            crunchbase: https://www.crunchbase.com/organization/harvest-automation
+          - name: MetoMotion
+            homepage_url: https://metomotion.com
+            logo: metomotion.svg
+            description: Greenhouse harvesting robots for tomatoes and vine crops, backed by Ridder investment.
+          - name: Root AI
+            homepage_url: https://rootai.com
+            logo: root-ai.svg
+            description: AI-powered robotic harvesting for indoor farms. Acquired by AppHarvest in 2021.
+
+      - name: Transplanting & Seeding
+        items:
+          - name: Visser Group
+            homepage_url: https://visser-holland.com
+            logo: visser-group.svg
+            description: Dutch manufacturer of transplanting, seeding, and tray handling machines for greenhouse automation.
+          - name: Urbinati
+            homepage_url: https://urbinati.com
+            logo: urbinati.svg
+            description: Italian transplanting, packaging, and seeding automation equipment for horticultural operations.
+          - name: AgriForce
+            homepage_url: https://agriforce.com
+            logo: agriforce.svg
+            description: Greenhouse automation and precision seeding systems for commercial food production.
+
+      - name: Integrated Turnkey Systems
+        items:
+          - name: Grow Glide
+            homepage_url: https://pipphorticulture.com
+            logo: grow-glide.svg
+            description: Ebb-and-flood grow systems with integrated automation, a subsidiary of Pipp Horticulture.
 
   - name: Software & Analytics
     subcategories:
-      - name: Grow Management
+      - name: Cultivation Operating Systems
         items:
           - name: Grownetics
-            homepage_url: https://grownetics.co
+            homepage_url: https://grownetics.com
             logo: grownetics.svg
-            description: Open-source grow management platform with real-time monitoring, automation, and analytics for commercial cultivators.
+            description: Open-architecture CEA operating system integrating real-time monitoring, environmental controls, and AI-powered crop analytics.
+            crunchbase: https://www.crunchbase.com/organization/grownetics
             repo_url: https://github.com/grownetics
-          - name: Agronomic IQ
-            homepage_url: https://agronomiciq.com
-            logo: agronomiciq.svg
-            description: Cultivation management software for licensed cannabis producers.
-          - name: growSoft
-            homepage_url: https://growsoft.com
-            logo: growsoft.svg
-            description: ERP and production management for greenhouse and nursery operations.
+          - name: Trym
+            homepage_url: https://trymag.com
+            logo: trym.svg
+            description: Cannabis cultivation management software for task tracking, compliance, and crop planning.
+            crunchbase: https://www.crunchbase.com/organization/trym
+          - name: GrowFlow
+            homepage_url: https://growflow.com
+            logo: growflow.svg
+            description: Cannabis ERP and seed-to-sale platform, acquired by WM Technology.
+          - name: Agriscout
+            homepage_url: https://agriscout.com
+            logo: agriscout.svg
+            description: Mobile scouting and crop monitoring application with CEA and greenhouse applications.
+          - name: PerPlot
+            homepage_url: https://perplot.com
+            logo: perplot.svg
+            description: Greenhouse cultivation management platform for crop planning and production tracking.
 
-      - name: Data & Analytics
+      - name: Farm Management & ERP
         items:
-          - name: Motorleaf
-            homepage_url: https://www.motorleaf.com
-            logo: motorleaf.svg
-            description: AI-powered predictive analytics and yield forecasting for greenhouses.
-
-      - name: Compliance & Seed-to-Sale
-        items:
-          - name: Metrc
-            homepage_url: https://metrc.com
-            logo: metrc.svg
-            description: State-authorized cannabis seed-to-sale tracking platform used across regulated US markets.
-          - name: BioTrackTHC
-            homepage_url: https://biotrackthc.com
+          - name: 365 Cannabis
+            homepage_url: https://365cannabis.com
+            logo: 365-cannabis.svg
+            description: Cannabis ERP platform built on Microsoft Dynamics for enterprise cultivation management.
+          - name: MJ Platform
+            homepage_url: https://mjplatform.com
+            logo: mj-platform.svg
+            description: Cannabis enterprise resource planning platform for cultivation, manufacturing, and distribution.
+          - name: Flourish Software
+            homepage_url: https://flourishsoftware.com
+            logo: flourish-software.svg
+            description: Seed-to-sale cannabis software with deep METRC integration for cultivators and manufacturers.
+            crunchbase: https://www.crunchbase.com/organization/flourish-software
+          - name: Canix
+            homepage_url: https://canix.com
+            logo: canix.svg
+            description: Cannabis cultivator operations platform with real-time METRC compliance and inventory management.
+            crunchbase: https://www.crunchbase.com/organization/canix
+          - name: Distru
+            homepage_url: https://distru.com
+            logo: distru.svg
+            description: Cannabis distribution and manufacturing ERP with two-way METRC synchronization.
+          - name: Wherefour
+            homepage_url: https://wherefour.com
+            logo: wherefour.svg
+            description: Traceability and compliance ERP for cannabis, food, and beverage manufacturers.
+          - name: Treez
+            homepage_url: https://treez.io
+            logo: treez.svg
+            description: Cannabis retail and wholesale commerce platform with inventory and compliance management.
+          - name: Flowhub
+            homepage_url: https://flowhub.com
+            logo: flowhub.svg
+            description: Cannabis point-of-sale and compliance platform for dispensary and retail operations.
+            crunchbase: https://www.crunchbase.com/organization/flowhub
+          - name: BioTrack
+            homepage_url: https://biotrack.com
             logo: biotrack.svg
-            description: Cannabis compliance tracking and inventory management software.
+            description: Cannabis track-and-trace and operations software transitioning to the AllLeaves platform.
+          - name: PLNTRK
+            homepage_url: https://plntrk.com
+            logo: plntrk.svg
+            description: NFC and QR code plant-level tracking application for cannabis cultivation operations.
+          - name: Agrify
+            homepage_url: https://agrify.com
+            logo: agrify.svg
+            description: Vertical farming units with integrated software suite for precision cultivation management.
+            crunchbase: https://www.crunchbase.com/organization/agrify
 
-  - name: Connectivity & Integration
-    subcategories:
-      - name: IoT Protocols & Middleware
+      - name: AI & ML Analytics
+        items:
+          - name: Prospera Technologies
+            homepage_url: https://prospera.ag
+            logo: prospera.svg
+            description: AI-driven greenhouse crop management and computer vision platform. Acquired by Valmont Industries in 2021.
+          - name: Taranis
+            homepage_url: https://taranis.ag
+            logo: taranis.svg
+            description: High-resolution crop imaging and AI-powered analytics for pest and disease identification.
+
+      - name: Open Source Tools
         items:
           - name: InfluxDB
-            homepage_url: https://www.influxdata.com
+            homepage_url: https://influxdata.com
             logo: influxdb.svg
-            description: Time-series database purpose-built for high-throughput sensor data ingestion and querying.
+            description: Time-series database purpose-built for high-throughput sensor data ingestion and querying in CEA systems.
             repo_url: https://github.com/influxdata/influxdb
           - name: Telegraf
-            homepage_url: https://www.influxdata.com/time-series-platform/telegraf
+            homepage_url: https://influxdata.com/time-series-platform/telegraf
             logo: telegraf.svg
-            description: Open-source server agent for collecting, processing, and aggregating sensor metrics.
+            description: Open-source server agent for collecting, processing, and aggregating sensor metrics from CEA equipment.
             repo_url: https://github.com/influxdata/telegraf
           - name: Grafana
             homepage_url: https://grafana.com
             logo: grafana.svg
-            description: Open-source observability and data visualization platform widely used for CEA dashboards.
+            description: Open-source observability and data visualization platform widely used for CEA monitoring dashboards.
             repo_url: https://github.com/grafana/grafana
 
-      - name: Cloud Platforms
-        items:
-          - name: Aranet Cloud
-            homepage_url: https://aranet.cloud
-            logo: aranet-cloud.svg
-            description: Cloud platform for managing and retrieving data from Aranet wireless sensor networks.
-
-  - name: Infrastructure & Facilities
+  - name: Compliance & Track-and-Trace
     subcategories:
-      - name: Vertical Farming
+      - name: State-Mandated Track & Trace
         items:
+          - name: METRC
+            homepage_url: https://metrc.com
+            logo: metrc.svg
+            description: Dominant US cannabis track-and-trace system mandated by state regulatory agencies.
+          - name: Viridian Sciences
+            homepage_url: https://viridiansciences.com
+            logo: viridian-sciences.svg
+            description: Cannabis operations and compliance software with state-mandated tracking integration.
+
+      - name: Seed-to-Sale Software
+        items:
+          - name: Confident Cannabis
+            homepage_url: https://confidentcannabis.com
+            logo: confident-cannabis.svg
+            description: Cannabis testing data platform connecting labs, producers, and retailers for compliance and quality.
+
+      - name: Lab Testing Services
+        items:
+          - name: Steep Hill
+            homepage_url: https://steephill.com
+            logo: steep-hill.svg
+            description: Cannabis potency, pesticide, and safety testing with pioneering analytical methodologies.
+            crunchbase: https://www.crunchbase.com/organization/steep-hill-labs
+          - name: SC Labs
+            homepage_url: https://sclabs.com
+            logo: sc-labs.svg
+            description: Cannabis and hemp analytical testing for potency, terpenes, pesticides, and contaminants.
+            crunchbase: https://www.crunchbase.com/organization/sc-labs
+          - name: MCR Labs
+            homepage_url: https://mcrlabs.com
+            logo: mcr-labs.svg
+            description: Cannabis analytical testing laboratory serving Massachusetts and the northeastern US market.
+          - name: Eurofins
+            homepage_url: https://eurofins.com
+            logo: eurofins.svg
+            description: Multinational analytical testing laboratory with cannabis, food safety, and environmental divisions.
+          - name: ProVerde Laboratories
+            homepage_url: https://proverde.com
+            logo: proverde.svg
+            description: ISO-accredited cannabis testing laboratory providing comprehensive analytical services.
+          - name: Kaycha Labs
+            homepage_url: https://kaychalabs.com
+            logo: kaycha-labs.svg
+            description: Multi-state cannabis and hemp analytical testing with rapid turnaround and compliance support.
+
+  - name: Infrastructure & Facility
+    subcategories:
+      - name: Vertical Racking & Benching
+        items:
+          - name: Pipp Horticulture
+            homepage_url: https://pipphorticulture.com
+            logo: pipp-horticulture.svg
+            description: Mobile vertical grow racks and rolling benches with over 3,000 installations in cannabis facilities.
+          - name: Montel
+            homepage_url: https://montelsystems.com
+            logo: montel.svg
+            description: Mobile shelving and high-density storage systems adapted for vertical growing environments.
+          - name: Spacesaver
+            homepage_url: https://spacesaver.com
+            logo: spacesaver.svg
+            description: Mobile storage and racking systems applied to cannabis grow room space optimization.
+
+      - name: Facility Design & Construction
+        items:
+          - name: Higher Yields Consulting
+            homepage_url: https://higheryieldsconsulting.com
+            logo: higher-yields.svg
+            description: Cannabis and CEA facility design consultancy with over 4 million square feet of projects built.
+          - name: GrowSpan
+            homepage_url: https://growspan.com
+            logo: growspan.svg
+            description: Greenhouse and indoor grow room structures for commercial cannabis and horticulture.
+
+      - name: Modular Grow Rooms
+        items:
+          - name: BCNL
+            homepage_url: https://bcnorthernlights.com
+            logo: bcnl.svg
+            description: Automated indoor grow cabinets and self-contained growing systems for controlled cultivation.
+          - name: SuperCloset
+            homepage_url: https://supercloset.com
+            logo: supercloset.svg
+            description: Turnkey hydroponic grow cabinets and complete indoor growing systems with automation.
+          - name: Leaf
+            homepage_url: https://getleaf.co
+            logo: leaf.svg
+            description: Automated home growing appliance using computer vision and precision dosing technology.
+            crunchbase: https://www.crunchbase.com/organization/leaf-home-growing
+
+  - name: Genetics & Inputs
+    subcategories:
+      - name: Cannabis Genetics & Seed Banks
+        items:
+          - name: Phylos Bioscience
+            homepage_url: https://phylos.co
+            logo: phylos.svg
+            description: Cannabis genomics, genotyping, and molecular breeding for commercial cultivar development.
+            crunchbase: https://www.crunchbase.com/organization/phylos-bioscience
+          - name: Ethos Genetics
+            homepage_url: https://ethosgenetix.com
+            logo: ethos-genetics.svg
+            description: Commercial cannabis genetics breeding program producing high-performance cultivars for the industry.
+          - name: Sensi Seeds
+            homepage_url: https://sensiseeds.com
+            logo: sensi-seeds.svg
+            description: One of the oldest cannabis seed banks with over 500 strains and decades of breeding heritage.
+          - name: Royal Queen Seeds
+            homepage_url: https://royalqueenseeds.com
+            logo: royal-queen-seeds.svg
+            description: Major European cannabis seed bank with extensive commercial and autoflowering strain catalogs.
+          - name: Dutch Passion
+            homepage_url: https://dutch-passion.com
+            logo: dutch-passion.svg
+            description: Pioneer Dutch cannabis seed breeder established in 1987 with feminized and autoflower genetics.
+          - name: Barney's Farm
+            homepage_url: https://barneysfarm.com
+            logo: barneys-farm.svg
+            description: Award-winning Amsterdam cannabis genetics with a catalog of competition-winning cultivars.
+          - name: Humboldt Seed Co.
+            homepage_url: https://humboldtseeds.com
+            logo: humboldt-seed-co.svg
+            description: California-heritage cannabis genetics bred for commercial performance and unique terpene profiles.
+          - name: Archive Seed Bank
+            homepage_url: https://archiveseedbank.com
+            logo: archive-seed-bank.svg
+            description: Craft cannabis genetics focused on unique and exotic cultivar breeding for commercial growers.
+          - name: Bodhi Seeds
+            homepage_url: https://bodhiseeds.com
+            logo: bodhi-seeds.svg
+            description: Heritage cannabis genetics preserving landrace and heirloom lineages for breeding programs.
+          - name: Green House Seed Co.
+            homepage_url: https://greenhouseseeds.nl
+            logo: green-house-seed-co.svg
+            description: Dutch commercial cannabis genetics with award-winning strains and global distribution.
+
+      - name: Propagation & Tissue Culture
+        items:
+          - name: Dark Heart Nursery
+            homepage_url: https://darkheartnursery.com
+            logo: dark-heart-nursery.svg
+            description: Cannabis tissue culture and clone propagation at scale for California commercial cultivators.
+            crunchbase: https://www.crunchbase.com/organization/dark-heart-nursery
+          - name: InVitro Plant Technologies
+            homepage_url: https://invitroplanttechnologies.com
+            logo: invitro-plant-technologies.svg
+            description: Plant tissue culture services and propagation technology for CEA crop multiplication.
+          - name: Vitroflora
+            homepage_url: https://vitroflora.pl
+            logo: vitroflora.svg
+            description: European tissue culture laboratory for ornamental, cannabis, and horticultural plant propagation.
+
+      - name: Biocontrols & IPM
+        items:
+          - name: Koppert
+            homepage_url: https://koppert.com
+            logo: koppert.svg
+            description: Global leader in biological crop protection and natural pollination for greenhouse production.
+          - name: BioWorks
+            homepage_url: https://bioworksinc.com
+            logo: bioworks.svg
+            description: Biological pest control and plant health products specifically formulated for CEA environments.
+          - name: Biobest
+            homepage_url: https://biobest.be
+            logo: biobest.svg
+            description: Belgian biocontrol agents, beneficial insects, and bumblebee pollination for greenhouse growing.
+          - name: Andermatt Biocontrol
+            homepage_url: https://andermattbiocontrol.com
+            logo: andermatt-biocontrol.svg
+            description: Swiss biological pest and disease control products for integrated pest management programs.
+
+      - name: Media & Substrates
+        items:
+          - name: Grodan
+            homepage_url: https://grodan.com
+            logo: grodan.svg
+            description: Market-leading rockwool substrate for hydroponic CEA, part of the ROCKWOOL Group.
+          - name: Royal Gold
+            homepage_url: https://royalgoldmix.com
+            logo: royal-gold.svg
+            description: Premium coco coir and mineral substrate blends for professional cannabis cultivation.
+          - name: Mother Earth
+            homepage_url: https://motherearthco.com
+            logo: mother-earth.svg
+            description: Coco coir, perlite, and grow media products owned by Hawthorne Gardening.
+          - name: Dutch Plantin
+            homepage_url: https://dutchplantin.com
+            logo: dutch-plantin.svg
+            description: Coco coir substrates and growing media for commercial greenhouse and hydroponic operations.
+          - name: Cultilene
+            homepage_url: https://cultilene.com
+            logo: cultilene.svg
+            description: Dutch rockwool grow media manufacturer for greenhouse vegetable and flower production.
+          - name: Jiffy Group
+            homepage_url: https://jiffygroup.com
+            logo: jiffy-group.svg
+            description: Peat and coco propagation plugs and substrates for commercial seedling and cutting production.
+          - name: Haifa Group
+            homepage_url: https://haifa-group.com
+            logo: haifa-group.svg
+            description: Controlled-release fertilizers, specialty nutrients, and growing media for horticultural operations.
+
+  - name: Workforce & Education
+    subcategories:
+      - name: Labor Management & Workforce
+        items:
+          - name: Wurk
+            homepage_url: https://enjoywurk.com
+            logo: wurk.svg
+            description: Cannabis workforce management platform providing payroll, HR, scheduling, and compliance.
+            crunchbase: https://www.crunchbase.com/organization/wurk
+          - name: KayaPush
+            homepage_url: https://kayapush.com
+            logo: kayapush.svg
+            description: Cannabis-specific HR, employee scheduling, and payroll management platform.
+          - name: Vangst
+            homepage_url: https://vangst.com
+            logo: vangst.svg
+            description: Cannabis industry talent marketplace and professional staffing services.
+            crunchbase: https://www.crunchbase.com/organization/vangst
+          - name: Cannabis at Work
+            homepage_url: https://cannabisatwork.com
+            logo: cannabis-at-work.svg
+            description: Cannabis HR consulting, compliance training, and workplace policy development services.
+
+      - name: Education & Certification
+        items:
+          - name: Oaksterdam University
+            homepage_url: https://oaksterdam.com
+            logo: oaksterdam.svg
+            description: Pioneer cannabis industry education institution offering business and horticulture programs.
+          - name: Cannabis Training University
+            homepage_url: https://cannabistraininguniversity.com
+            logo: cannabis-training-university.svg
+            description: Online cannabis education platform covering cultivation, extraction, and business operations.
+
+      - name: Consulting & Advisory
+        items:
+          - name: Catalyst BC
+            homepage_url: https://catalyst-bc.com
+            logo: catalyst-bc.svg
+            description: CEA consulting firm specializing in cannabis and hemp facility design and operations.
+          - name: American Cannabis Consulting
+            homepage_url: https://americancannabisconsulting.com
+            logo: american-cannabis-consulting.svg
+            description: Full-service cannabis cultivation consulting for facility design, licensing, and operations.
+          - name: CannDelta
+            homepage_url: https://canndelta.com
+            logo: canndelta.svg
+            description: Canadian cannabis compliance, licensing, and operations consulting services.
+          - name: Cann Strategy
+            homepage_url: https://cannstrategy.com
+            logo: cann-strategy.svg
+            description: Cannabis operations planning, licensing strategy, and facility development consulting.
+          - name: Schwazze
+            homepage_url: https://schwazze.com
+            logo: schwazze.svg
+            description: Cannabis operator and consulting organization with cultivation and retail operations.
+
+  - name: Marketplaces & Finance
+    subcategories:
+      - name: Equipment Marketplaces
+        items:
+          - name: Hydrobuilder
+            homepage_url: https://hydrobuilder.com
+            logo: hydrobuilder.svg
+            description: Online marketplace for CEA and cannabis growing supplies, equipment, and nutrients.
+          - name: CEAUnion
+            homepage_url: https://ceaunion.com
+            logo: ceaunion.svg
+            description: B2B marketplace connecting CEA equipment manufacturers with commercial growing operations.
+          - name: Grower's House
+            homepage_url: https://growershouse.com
+            logo: growers-house.svg
+            description: Online retail marketplace for indoor growing equipment, lights, and cultivation supplies.
+          - name: Horticulture Source
+            homepage_url: https://horticulturesource.com
+            logo: horticulture-source.svg
+            description: Commercial greenhouse equipment marketplace for professional horticultural operations.
+          - name: Hort Americas
+            homepage_url: https://hortamericas.com
+            logo: hort-americas.svg
+            description: Distributor of professional greenhouse and indoor farming supplies and technology.
+          - name: indoor.ag
+            homepage_url: https://indoor.ag
+            logo: indoor-ag.svg
+            description: CEA industry media platform and marketplace connecting indoor farming professionals.
+
+      - name: Cannabis Finance & Lending
+        items:
+          - name: Chicago Atlantic
+            homepage_url: https://chicagoatlantic.com
+            logo: chicago-atlantic.svg
+            description: Cannabis-focused credit and lending fund providing capital to licensed operators.
+            crunchbase: https://www.crunchbase.com/organization/chicago-atlantic
+          - name: Merida Capital Holdings
+            homepage_url: https://meridacapitalholdings.com
+            logo: merida-capital.svg
+            description: Private equity and venture capital firm focused on the cannabis industry ecosystem.
+          - name: Poseidon Asset Management
+            homepage_url: https://poseidon.eco
+            logo: poseidon.svg
+            description: Cannabis-focused investment fund managing capital across the legal cannabis value chain.
+
+      - name: Data & Market Intelligence
+        items:
+          - name: New Frontier Data
+            homepage_url: https://newfrontierdata.com
+            logo: new-frontier-data.svg
+            description: Cannabis market intelligence and analytics providing industry data and forecasting.
+            crunchbase: https://www.crunchbase.com/organization/new-frontier-data
+          - name: MJBizDaily
+            homepage_url: https://mjbizdaily.com
+            logo: mjbizdaily.svg
+            description: Cannabis industry media, news, and market data provider for business professionals.
+          - name: Headset
+            homepage_url: https://headset.io
+            logo: headset.svg
+            description: Cannabis retail and market analytics platform providing sales data and consumer insights.
+            crunchbase: https://www.crunchbase.com/organization/headset
+          - name: BDS Analytics
+            homepage_url: https://bdsanalytics.com
+            logo: bds-analytics.svg
+            description: Cannabis consumer and market data analytics, now operating as BDSA.
+          - name: Cannabis Benchmarks
+            homepage_url: https://cannabisbenchmarks.com
+            logo: cannabis-benchmarks.svg
+            description: Cannabis commodity pricing data and market intelligence for wholesale and spot markets.
+          - name: CannaSpyglass
+            homepage_url: https://cannaspyglass.com
+            logo: cannaspyglass.svg
+            description: Cannabis license, contact data, and market intelligence platform for industry prospecting.
+
+  - name: Post-Harvest & Processing
+    subcategories:
+      - name: Trimming & Processing Equipment
+        items:
+          - name: Mobius Trimmer
+            homepage_url: https://mobiustrimmer.com
+            logo: mobius-trimmer.svg
+            description: Commercial-grade cannabis trimming machines for high-volume post-harvest processing.
+          - name: GreenBroz
+            homepage_url: https://greenbroz.com
+            logo: greenbroz.svg
+            description: Dry trimming machines and post-harvest automation equipment for cannabis operations.
+          - name: Twister Trimmer
+            homepage_url: https://twistertrimmer.com
+            logo: twister-trimmer.svg
+            description: Continuous-feed cannabis trimming systems for wet and dry post-harvest processing.
+          - name: TrimPro
+            homepage_url: https://trimpro.com
+            logo: trimpro.svg
+            description: Manual and automated cannabis trimming machines for craft and commercial processing.
+
+      - name: Drying & Curing
+        items:
+          - name: Harvest Right
+            homepage_url: https://harvestright.com
+            logo: harvest-right.svg
+            description: Freeze drying equipment used for cannabis preservation and post-harvest product processing.
+
+  - name: Research & Standards
+    subcategories:
+      - name: Industry Organizations
+        items:
+          - name: Resource Innovation Institute
+            homepage_url: https://resourceinnovation.org
+            logo: resource-innovation-institute.svg
+            description: Nonprofit promoting resource efficiency and sustainability best practices in CEA operations.
+          - name: CEA Alliance
+            homepage_url: https://ceaalliance.org
+            logo: cea-alliance.svg
+            description: Industry organization advancing controlled environment agriculture through collaboration and standards.
+          - name: NCIA
+            homepage_url: https://thecannabisindustry.org
+            logo: ncia.svg
+            description: National Cannabis Industry Association advocating for federal cannabis policy reform and business standards.
+          - name: Association for Vertical Farming
+            homepage_url: https://vertical-farming.net
+            logo: avf.svg
+            description: International nonprofit advancing vertical farming through education, research, and industry networking.
+
+      - name: Academic Programs
+        items:
+          - name: Cornell CEA Program
+            homepage_url: https://cea.cals.cornell.edu
+            logo: cornell-cea.svg
+            description: Cornell University controlled environment agriculture research and education program.
+          - name: Wageningen University
+            homepage_url: https://wur.nl
+            logo: wageningen.svg
+            description: World-leading Dutch university for agricultural research including greenhouse horticulture and vertical farming.
+          - name: Cannabis Research Coalition
+            homepage_url: https://cannabisrc.org
+            logo: cannabis-research-coalition.svg
+            description: Open-source research library and collaborative platform for cannabis and CEA science.
+          - name: Institute of Cannabis Research
+            homepage_url: https://instituteofcannabisresearchcolorado.org
+            logo: institute-of-cannabis-research.svg
+            description: Academic cannabis research institute at Colorado State University Pueblo.
+
+      - name: Standards Bodies
+        items:
+          - name: American Society for Horticultural Science
+            homepage_url: https://ashs.org
+            logo: ashs.svg
+            description: Professional society advancing horticultural science through research, education, and industry standards.
+
+  - name: Operators
+    subcategories:
+      - name: Vertical Farms
+        items:
+          - name: AeroFarms
+            homepage_url: https://aerofarms.com
+            logo: aerofarms.svg
+            description: Pioneer in large-scale indoor vertical farming using aeroponic systems. Filed Chapter 11 in 2023.
+            crunchbase: https://www.crunchbase.com/organization/aerofarms
+          - name: Bowery Farming
+            homepage_url: https://boweryfarming.com
+            logo: bowery-farming.svg
+            description: AI-powered vertical farming operator with proprietary BoweryOS platform. Filed Chapter 11 in August 2024.
+            crunchbase: https://www.crunchbase.com/organization/bowery-farming
+          - name: Plenty
+            homepage_url: https://plenty.ag
+            logo: plenty.svg
+            description: Indoor vertical farm operator producing leafy greens at scale, acquired by Walmart.
+            crunchbase: https://www.crunchbase.com/organization/plenty-unlimited
           - name: 80 Acres Farms
-            homepage_url: https://www.80acresfarms.com
-            logo: 80acres.svg
-            description: Technology-forward vertical farming operator and platform developer.
+            homepage_url: https://80acresfarms.com
+            logo: 80-acres-farms.svg
+            description: Technology-forward vertical farming operator with fully automated indoor growing facilities.
+            crunchbase: https://www.crunchbase.com/organization/80-acres-farms
+          - name: Infarm
+            homepage_url: https://infarm.com
+            logo: infarm.svg
+            description: Modular in-store and warehouse vertical farming units for hyperlocal produce. Underwent major restructuring in 2023.
+            crunchbase: https://www.crunchbase.com/organization/infarm
+          - name: Kalera
+            homepage_url: https://kalera.com
+            logo: kalera.svg
+            description: Hydroponic vertical farming operator growing clean leafy greens. Experienced financial difficulties in 2023.
+            crunchbase: https://www.crunchbase.com/organization/kalera
+          - name: Oishii
+            homepage_url: https://oishii.com
+            logo: oishii.svg
+            description: Premium vertical farm producing high-value Japanese strawberries using proprietary pollination and growing techniques.
+            crunchbase: https://www.crunchbase.com/organization/oishii
+          - name: GoodLeaf Farms
+            homepage_url: https://goodleaffarms.ca
+            logo: goodleaf-farms.svg
+            description: Canadian vertical farming company producing leafy greens and microgreens year-round.
+          - name: Revol Greens
+            homepage_url: https://revolgreens.com
+            logo: revol-greens.svg
+            description: Large-scale commercial greenhouse lettuce and salad green producer in the US market.
+
+      - name: Greenhouse Operators
+        items:
+          - name: Village Farms
+            homepage_url: https://villagefarms.com
+            logo: village-farms.svg
+            description: Large-scale CEA greenhouse operator producing tomatoes, peppers, and cannabis through Pure Sunfarms.
+          - name: Little Leaf Farms
+            homepage_url: https://littleleaffarms.com
+            logo: little-leaf-farms.svg
+            description: Greenhouse lettuce producer using sustainable hydroponic growing methods in the northeastern US.
+          - name: Gotham Greens
+            homepage_url: https://gothamgreens.com
+            logo: gotham-greens.svg
+            description: Urban hydroponic greenhouse operator producing premium leafy greens and herbs across multiple US cities.
+            crunchbase: https://www.crunchbase.com/organization/gotham-greens
+          - name: BrightFarms
+            homepage_url: https://brightfarms.com
+            logo: brightfarms.svg
+            description: Retail greenhouse produce network growing salads close to consumer markets for freshness.
+            crunchbase: https://www.crunchbase.com/organization/brightfarms
+          - name: Mucci Farms
+            homepage_url: https://muccifarms.com
+            logo: mucci-farms.svg
+            description: Canadian 650-plus acre greenhouse operator producing tomatoes, peppers, cucumbers, and strawberries.
           - name: AppHarvest
             homepage_url: https://appharvest.com
             logo: appharvest.svg
-            description: High-tech greenhouse operator focused on sustainable agriculture in Appalachia.
-
-      - name: Greenhouse Construction
-        items:
-          - name: Rough Brothers (RBI)
-            homepage_url: https://roughbros.com
-            logo: roughbros.svg
-            description: Commercial greenhouse design and construction for horticulture and cannabis.
-
-  - name: Marketplaces & Services
-    subcategories:
-      - name: Equipment & Supplies
-        items:
-          - name: Hort Americas
-            homepage_url: https://hortamericas.com
-            logo: hortamericas.svg
-            description: Distributor of professional greenhouse and indoor farming supplies and technology.
-
-      - name: Consulting & Integration
-        items:
-          - name: Surna
-            homepage_url: https://surna.com
-            logo: surna.svg
-            description: Environmental control and HVAC engineering for cannabis and controlled environment facilities.
+            description: Large-scale high-tech greenhouse operator in Appalachia. Filed Chapter 11 in 2023 with assets transferred.
+            crunchbase: https://www.crunchbase.com/organization/appharvest
