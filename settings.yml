@@ -1,6 +1,5 @@
 foundation: CEA Landscape
 url: https://cea-landscape.grownetics.com
-base_path: "/"
 
 colors:
   color1: "rgba(0, 107, 60, 1)"
