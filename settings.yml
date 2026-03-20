@@ -11,10 +11,6 @@ colors:
   color7: "rgba(0, 60, 30, 1)"
   color8: "rgba(0, 40, 20, 1)"
 
-images:
-  favicon: https://cea-landscape.grownetics.com/images/favicon.png
-  open_graph: https://cea-landscape.grownetics.com/images/og-image.png
-  thumbnail: https://cea-landscape.grownetics.com/images/thumbnail.png
 
 grid_items_size: medium
 
